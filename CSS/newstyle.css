@@ -1,0 +1,115 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 120%;
+    height: auto;
+    width:auto;
+}
+#particles-js{
+    position: absolute;
+    z-index:-10;
+    top:0px;
+    width:100%;
+    height:auto;
+}
+.header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: white;
+	background:#0B50AB;
+    opacity: 0.7;
+	text-align: center;
+	border: 1px solid #0B50AB;
+	border-bottom: none;
+	border-radius:77px 0px 0px 0px;
+	padding: 20px;
+    overflow:hidden;
+}
+#register-form,#login-form{
+    background:rgba(100,100,100,0.6);
+}
+form, .content {
+	width: 30%;
+	margin: 0px auto;
+	padding: 20px;
+	border: 5px solid #0B50AB;
+	background: white;
+    border-radius:0px 0px 77px 0px;
+    overflow:hidden;
+}
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius:0px 15px 15px 0px;
+	border: 2px solid gray;
+    background:rgba(100,100,100,0.3);
+}
+.input-group input::placeholder{
+    color:#FFF;
+}
+.input-group input:focus{
+    color:#000;
+    border:2px solid #FFF;
+    -webkit-box-shadow: 0px 0px 22px 1px rgba(18, 56, 18, 1);
+    -moz-box-shadow: 0px 0px 22px 1px rgba(18, 56, 18, 1);
+    box-shadow: 0px 0px 22px 1px rgba(18, 56, 18, 1);
+}
+.btn {
+	padding: 10px;
+	font-size: 16px;
+	color: white;
+    font-family:roboto;
+	background: #0B50AB;
+	border-radius:0px 30px 0px 30px;
+    margin:0 0;
+    width:30%;
+    overflow:hidden;
+}
+.btn:hover{
+    transition:1s;
+    background:green;
+    color:#FFF;
+   -webkit-box-shadow: 0px 0px 22px 1px rgba(18, 56, 18, 1);
+   -moz-box-shadow: 0px 0px 22px 1px rgba(18, 56, 18, 1);
+   box-shadow: 0px 0px 22px 1px rgba(18, 56, 18, 1);
+    border-radius:30px 0px 30px 0px;
+    }
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+.success {
+	color: #3c763d; 
+	background: #dff0d8; 
+	border: 1px solid #3c763d;
+	margin-bottom: 20px;
+}
+span{
+    color:red;
+    font-size:20px;
+    font-family: roboto;
+}
+h5{
+    color:green;
+    font-size:20px;
+    font-family: roboto;
+}
